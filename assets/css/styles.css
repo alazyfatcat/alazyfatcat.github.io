@@ -469,7 +469,6 @@ img{
 }
 .skills__titles{
     display: flex;
-    justify-content: space-between;
     margin-bottom: var(--mb-0-5);
 }
 .skills__name{
@@ -537,14 +536,15 @@ img{
 }
 
 /*==================== PROJECTS ====================*/
-.projects__container{
+/* .projects__container{
     gap: 1.5rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); 
+    
 }
 .projects__content{
     position: relative;
     background-color: var(--container-color);
-    padding: 3.5rem .5rem 1.25rem 1.5rem;
+    padding: 3.5rem .5rem 1.25rem 1.5rem; 
     border-radius: .25rem;
     box-shadow: 0 2px 4px rgba(0,0,0,.15);   
     transition: .3s;
@@ -614,11 +614,50 @@ img{
 .projects__modal-icon{
     color: var(--first-color);
     margin-right: var(--mb-0-25);
-}
+} */
 /* Active Modal */
-.active-modal{
+/* .active-modal{
     opacity: 1;
     visibility: visible;
+} */
+
+.projects__img{
+    width: 400px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.projects__description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.projects__info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+.projects__info-title{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.projects__info-name{
+    font-size: var(--smaller-font-size);
+}
+
+.projects__info-title,
+.projects__info-name{
+    display: block;
+    text-align: center;
+}
+
+.projects__buttons{
+    display: flex;
+    justify-content: center;
 }
 
 /*==================== PORTFOLIO ====================*/
@@ -1010,14 +1049,15 @@ span.swiper-pagination-bullet{
         grid-template-columns: .5fr;
     }
     .projects__container{
-        grid-template-columns: repeat(3, 218px);
+        /* grid-template-columns: repeat(3, 218px); */
         justify-content: center;
     }
     .projects__icon{
         font-size: 2rem;
     }
     .projects__content{
-        padding: 6rem 0 2rem 2.5rem;
+        /* padding: 6rem 0 2rem 2.5rem; */
+        padding: 0;
     }
     .projects__modal-content{
         width: 450px;
@@ -1075,7 +1115,7 @@ span.swiper-pagination-bullet{
         transform: translateX(-6rem);
     }
     .projects__container{
-        grid-template-columns: repeat(3, 238px);
+        /* grid-template-columns: repeat(3, 238px); */
     }
     .portfolio__content{
         width: max-content;
