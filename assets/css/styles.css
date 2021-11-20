@@ -1049,7 +1049,7 @@ span.swiper-pagination-bullet{
         grid-template-columns: .5fr;
     }
     .projects__container{
-        /* grid-template-columns: repeat(3, 218px); */
+        grid-template-columns: repeat(3, 218px); 
         justify-content: center;
     }
     .projects__icon{
