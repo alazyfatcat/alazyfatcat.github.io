@@ -1,6 +1,5 @@
-# Responsive Portfolio Website 
+# Hung Duong Portfolio
 
-### Responsive Portfolio Website 
-Responsive Portfolio Website Using Html, Css and JavaScript, With a beautiful user interface. It contains a Header, Home, About, Skills, , Projects, Portfolio, Contact and Footer.
+This is my portfolio website
 
 
