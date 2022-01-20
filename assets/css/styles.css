@@ -629,7 +629,7 @@ img{
 }
 
 .projects__description{
-    text-align: center;
+    text-align: left;
     margin-bottom: var(--mb-2-5);
 }
 
@@ -637,6 +637,12 @@ img{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2-5);
+}
+
+.projects__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-1);
+    font-weight: var(--font-medium);
 }
 
 .projects__info-title{
@@ -655,9 +661,26 @@ img{
     text-align: center;
 }
 
-.projects__buttons{
-    display: flex;
-    justify-content: center;
+.projects_subtitle {
+	background-color:var(--first-color-second);
+	border-radius:28px;
+	border:1px solid var(--first-color-second);
+	display:inline-block;
+	cursor:pointer;
+	color:var(--title-color);
+	font-family:Arial;
+	font-size:13px;
+	padding:5px 5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin: 2px 0 2px 2px;
+}
+.projects_subtitle:hover {
+	background-color:#5cbf2a;
+}
+.projects_subtitle:active {
+	position:relative;
+	top:1px;
 }
 
 /*==================== PORTFOLIO ====================*/
